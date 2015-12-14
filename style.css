@@ -1,0 +1,381 @@
+/* Globals */
+
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #a7a09a;
+	font: medium "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+* html #footer {
+	height: 1px;
+}
+
+p {
+	margin: 0;
+	padding: 0.5em;
+}
+
+a:link {
+	color: #033857;
+	text-decoration: none;
+	border-bottom: 1px solid #033857;
+}
+a:visited {
+	color: #033857;
+	text-decoration: none;
+	border-bottom: 1px solid #033857;
+}
+a:hover {
+	color: #571433;
+	text-decoration: none;
+	border-bottom: 3px solid #571433;
+}
+
+h1 {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 2em;
+}
+h1.special {
+	padding-bottom: 0;
+	padding-left: 0;
+	color: #571433;
+	border-bottom: 5px solid #e6c763;
+	margin: 0 10px 0 10px;
+	font-size: 1.7em;
+}
+
+h2 {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1.5em;
+}
+h2.special {
+	color: #571433;
+}
+
+h3 {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1.2em;
+}
+
+.centre {
+	text-align: center;
+}
+.centreclear {
+	text-align: center;
+	clear: both;
+}
+.emphasis {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 900px;
+	margin: 0 auto;
+	background: url(img/background.jpg) #fff no-repeat;
+}
+
+#header {
+	background: url(img/header.jpg);
+	height: 250px;
+}
+#header h1 {
+	text-align: right;
+	margin: 0;
+	padding: 40px 80px 50px 50px;
+	font-size: 2.5em;
+}
+#header span.welcome {
+	padding-right: 250px;
+}
+#header span.taas {
+	color: #033857;
+}
+#nav {
+	width: 900px;
+	height: 50px;
+}
+#nav a:link {
+	border-bottom: none;
+}
+#nav a:visited {
+	border-bottom: none;
+}
+#nav ul {
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	list-style: none;
+	text-align: center;
+}
+#nav li {
+	display: inline;
+	margin: 0;
+	padding: 0 25px 0 25px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#title {
+	float: left;
+	width: 840px;
+	margin: 20px 0 0 0;
+	display: inline;	
+}
+#title h1 {
+	margin: 0 0 0 30px;
+	padding: 0;
+	color: #571433;
+	border-bottom: 5px solid #86cecd;
+	width: 840px;
+}
+
+#content {
+	float: left;
+	width: 840px;
+	background: #fff url(img/background-content.jpg) repeat;
+	margin: 0 30px 30px 30px;
+	display: inline;
+}
+#content table.clear {
+	clear: both;
+}
+#content table.styled {
+	width: 85%;
+	margin: 10px auto;
+	border-collapse: collapse;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+}
+#content table.styled thead tr th {
+	background-color: #86cecd;
+	color: #000000;
+}
+#content table.styled thead tr th.nobg {
+	background: none;
+}
+#content table.styled tbody {
+	color: #000000;
+}
+#content table.styled tbody tr td {
+	padding-left: 10px;
+	border: 3px solid #ffffff;
+}
+#content table.styled tbody tr th {
+	border: 3px solid #ffffff;
+	background-color: #bcedec;
+	width: 150px;
+}
+
+#content-nobg {
+	width: 840px;
+	float: left;
+	background: #fff;
+}
+
+#content-text {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* End of Globals */
+
+/* Programme Page */
+
+img.map {
+	width: 702px;
+	margin: 10px 0 0 70px;
+}
+
+p.backtotop {
+	margin-left: 60px;
+}
+
+/* Gallery Page */
+
+#gallerylinks {
+	margin: 0 auto 3em auto;
+	text-align: center;
+}
+#gallerylinks ul.glinks {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#gallerylinks ul.glinks li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#gallerylinks ul.glinks li.marginleft {
+	margin-left: 3em;
+}
+
+#gallerybox {
+	width: 820px;
+	margin: 0 10px 10px 10px;
+	clear: both;
+}
+#gallerybox #gallerycol-l {
+	width: 410px;
+	float: left;
+	margin-bottom: 5px;
+}
+#gallerybox #gallerycol-r {
+	width: 410px;
+	float: right;
+}
+#gallerybox #gallerymid {
+	width: 400px;
+	margin: 0 auto;
+}
+#gallerybox #gallery800 {
+	width: 800px;
+	margin-bottom: 5px;
+}
+#gallerybox #gallery600 {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* End of Gallery Page */
+
+/* Membership Page */
+
+/* Adapted gallerybox CSS to display photos of membership activities etc - needed to account for increased margin on this page compared to gallery throwing off all the measurements - 50px left and right padding */
+
+#memberphotos {
+	width: 720px; /* changed from 820px, 50+50px padding compensation */
+	margin: 0 10px 10px 10px;
+	clear: both;
+}
+#memberphotos #memberphotos-l {
+	width: 340px; /* reduced to match container until it looked right, found that 310px was too little, created a huge gap between images - keeping reduced width to simulate a margin, like I do in the gallery */
+	float: left;
+	margin-bottom: 5px;
+	margin-left: 10px; /* added to even out layout, looks better */
+}
+#memberphotos #memberphotos-r {
+	width: 340px; /* "" "" */
+	float: right;
+	margin-right: 10px; /* "" */
+}
+#memberphotos #memberphotosmid {
+	width: 360px; /* reduced to be half of 720px as container has new size */
+	margin: 10px auto;
+}
+
+/* Exhibition Page */
+
+#ex-flower {
+	float: left;
+	width: 210px;
+}
+#ex-text-box {
+	float: right;
+	width: 630px;
+	padding-top: 20px;
+	text-align: center;
+	background: #fff;
+}
+#ex-commended-box {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+#ex-logo {
+	width: 315px;
+	margin: 0 auto;
+}
+
+/* End Exhibition Page */
+
+/* Home Page */
+
+#about {
+	float: left;
+	width: 590px;
+	margin: 20px 0 0 0;
+	display: inline;	
+}
+#about h1 {
+	margin: 0 0 0 30px;
+	padding: 0;
+	color: #571433;
+	border-bottom: 5px solid #86cecd;
+	width: 590px;
+}
+
+#main {
+	float: left;
+	width: 590px;
+	background: #fff;
+	margin: 0 20px 0 30px;
+	display: inline;
+	text-align: justify;
+}
+
+#side {
+	float: right;
+	width: 220px;
+	height: 800px;
+	margin: 20px 30px 0 0;
+	display: inline;
+}
+#side p.quote {
+	text-align: center;
+	font-weight: bold;
+	background: #dfdfdf;
+}
+#side p.archive {
+	margin-left: 16px;
+}
+#side p.whatsnew {
+	padding: 0.5em;
+	text-align: left;
+	background: #fff;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+#side h2.whatsnew {
+	padding: 0.5em 1em 0 1em;
+	font-size: 1.1em;
+	color: #571433;
+}
+#side h3.whatsnew {
+	padding: 0 0 0.2em 0;
+	font-size: 1em;
+	font-weight: bold;
+	border-bottom: 2px solid #e6c763;
+	margin: 0 1em 0 1em;
+}
+
+#main2 {
+	float: left;
+	width: 650px;
+	margin: 0;
+	display: inline;
+}
+#main2 #main2-1 {
+	float: left;
+	width: 265px;
+	margin: 0 0 0 30px;
+	display: inline;
+}
+#main2 #main2-2 {
+	float: right;
+	width: 235px;
+	margin: 0 30px 0 0;
+	display: inline;
+}
+
+/* End of Home Page */
+
+#footer {
+	clear: both;
+	background: #eeeae7; 
+}
