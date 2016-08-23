@@ -13,6 +13,7 @@ body, html {
 }
 
 p {
+	line-height: 1.5em;
 	margin: 0;
 	padding: 0.5em;
 }
@@ -66,6 +67,17 @@ img.frontpage {
 	border: 4px solid #86cecd;
 	margin: 20px 16px; /* accounting for border */
 	width: 550px; height: 334px; /* #main width -20px margin */
+}
+
+ul.contents {
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.75em;
+	list-style: none;
+	margin: 1em auto 3em auto;
+	padding: 0;
+	text-align: center;
+	width: 400px;
 }
 
 .centre {
@@ -192,6 +204,25 @@ img.frontpage {
 
 /* Programme Page */
 
+#winter-programme {
+	margin-left: 70px;
+	width: 700px;
+}
+
+#winter-programme th {
+	margin: 0;
+	padding: 0 20px 0 20px;
+	width: 233px;
+}
+#winter-programme tr {
+	background: #baedec;
+	margin: 20px;
+	padding: 20px;
+}
+#winter-programme tr.month {
+	background: #83cece;
+}
+
 img.map {
 	width: 702px;
 	margin: 10px 0 0 70px;
@@ -200,6 +231,8 @@ img.map {
 p.backtotop {
 	margin-left: 60px;
 }
+
+/* End of Programme Page */
 
 /* Gallery Page */
 
@@ -323,6 +356,9 @@ p.backtotop {
 	margin: 0 20px 0 30px;
 	display: inline;
 	text-align: justify;
+}
+#main p {
+	margin: 1.5em 2em 0 2em;
 }
 
 #side {
