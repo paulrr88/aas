@@ -204,6 +204,25 @@ ul.contents {
 
 /* Programme Page */
 
+#summer-programme {
+	margin-left: 70px;
+	width: 700px;
+}
+
+#summer-programme th {
+	margin: 0;
+	padding: 0 20px 0 20px;
+	width: 233px;
+}
+#summer-programme tr {
+	background: #baedec;
+	margin: 20px;
+	padding: 20px;
+}
+#summer-programme tr.month {
+	background: #83cece;
+}
+
 #winter-programme {
 	margin-left: 70px;
 	width: 700px;
