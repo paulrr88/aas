@@ -330,7 +330,9 @@ p.backtotop {
 /* Exhibition Page */
 
 #ex-flower {
+    background: url("img/ex_flower.jpg") 0 0 no-repeat;
 	float: left;
+    height: 600px;
 	width: 210px;
 }
 #ex-text-box {
