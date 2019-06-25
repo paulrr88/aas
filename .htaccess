@@ -1,0 +1,5 @@
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+# Caching rule to make sure files refresh, some clients have complained of this not happening, so just to be safe!
