@@ -33,13 +33,13 @@ function UGTheme_tilesgrid(){
 	var g_defaults = {
 			gallery_width: "100%",
 			
-			tile_width: 180,
-			tile_height: 150,
+			tile_width: 300,
+			tile_height: 300,
 			
 			grid_num_rows: 3,
 			grid_padding: 10,
 			
-			tile_enable_border: true,
+			tile_enable_border: false,
 			tile_enable_shadow: true,
 			
 			tile_border_radius: 2,

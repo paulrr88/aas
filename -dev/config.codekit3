@@ -81,12 +81,28 @@
 		"oAP": "/Applications/MAMP/htdocs/aas/exhibition/index.html",
 		"oF": 6
 		},
+	"/gallery-cball.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Applications/MAMP/htdocs/aas/gallery/cball/index.html",
+		"oF": 6
+		},
 	"/gallery-jarmstrong.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/Applications/MAMP/htdocs/aas/gallery/jarmstrong/index.html",
+		"oF": 6
+		},
+	"/gallery-mcairns.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Applications/MAMP/htdocs/aas/gallery/mcairns/index.html",
 		"oF": 6
 		},
 	"/gallery.kit": {
