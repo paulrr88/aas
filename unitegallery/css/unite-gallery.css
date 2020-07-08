@@ -477,7 +477,7 @@ img.ug-sepia-effect{
 	position:absolute;
 	margin:0px;
 	padding:0px;
-    background: red;
+    /*background: red;*/
 }
 
 
@@ -505,7 +505,7 @@ img.ug-sepia-effect{
 	color:white;
 	text-align:left;
 	z-index:3;
-    background: red;
+    /*background: red;*/
 }
 
 
@@ -871,7 +871,7 @@ img.ug-sepia-effect{
 
 .ug-lightbox .ug-textpanel-title,
 .ug-lightbox .ug-textpanel-description{
-    background: red;
+    /*background: red;*/
 	font-size: 20px;
 	font-weight: normal;
 	color: #e5e5e5;
@@ -879,7 +879,7 @@ img.ug-sepia-effect{
 
 .ug-lightbox-compact .ug-textpanel-title,
 .ug-lightbox-compact .ug-textpanel-description{
-    background: red; 
+    /*background: red;*/ 
 	color:#F3F3F3;
 	font-size: 16px;
 }
